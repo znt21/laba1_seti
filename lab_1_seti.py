@@ -2,8 +2,8 @@
 import random
 
 def data():
-	k = (input("Введите число k:"))
-	m = int(input("Введите сообщение: "))
+	k = (input("В¬РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ k:"))
+	m = int(input("В¬РІРµРґРёС‚Рµ СЃРѕРѕР±С‰РµРЅРёРµ: "))
 	return k, m
 
 def div_c(gx, mx):
@@ -32,7 +32,7 @@ def div_s(b, gx):
 	return sx
 
 def main():
-	gx = (input('Введите порождающий многочлен: '))[::-1]
+	gx = (input('В¬РІРµРґРёС‚Рµ РїРѕСЂРѕР¶РґР°СЋС‰РёР№ РјРЅРѕРіРѕС‡Р»РµРЅ: '))[::-1]
 	gx = int(gx,2)
 	k,m = data()
 	r = len(str(gx)) - 1
@@ -48,9 +48,9 @@ def main():
 	print('b(x) = ', format(b,'07b'))
 	sx = div_s(b,gx)
 	if sx == 0:
-		print('Ошибок не обнаружено')
+		print('СњС€РёР±РѕРє РЅРµ РѕР±РЅР°СЂСѓР¶РµРЅРѕ')
 	else:
-		print('Ошибка обнаружена')
+		print('СњС€РёР±РєР° РѕР±РЅР°СЂСѓР¶РµРЅР°')
 
 if __name__ == '__main__':
 	main()
