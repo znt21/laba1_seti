@@ -1,4 +1,4 @@
-# -*- coding:cp1251 -*-
+
 import random
 
 def data():
