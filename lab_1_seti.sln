@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lab_1_seti", "lab_1_seti\lab_1_seti.pyproj", "{1C5197F5-339D-4BD0-B53F-97C6447A7608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C5197F5-339D-4BD0-B53F-97C6447A7608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5197F5-339D-4BD0-B53F-97C6447A7608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F858580-659C-4B34-956D-55F1260F8421}
+	EndGlobalSection
+EndGlobal
